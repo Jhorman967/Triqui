@@ -4,7 +4,7 @@
   "description": "Juego IA",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d /. "
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Jhorman967/Triqui/issues"
   },
-  "homepage": "https://github.com/Jhorman967/Triqui#readme"
+  "homepage": "https://github.com/Jhorman967/Triqui#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
